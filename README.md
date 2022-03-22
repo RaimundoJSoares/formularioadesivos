@@ -3,6 +3,12 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Tecnologias: <br>
+Next JS  <br>
+React JS  <br>
+Chakra UI  <br>
+SSR  <br>
+
 ## Getting Started
 
 First, run the development server:
