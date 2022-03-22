@@ -1,4 +1,4 @@
-import { Checkbox, Flex, Heading, Input } from "@chakra-ui/react";
+import { Checkbox, Flex, Heading, Input, Link } from "@chakra-ui/react";
 import { Textarea } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 import { useState } from "react";
@@ -21,9 +21,10 @@ export default function Home() {
       h="100vh"
       justifyContent="center"
       alignItems="center"
-      flexDir="column"
+      
     >
       <Flex flexDir="column">
+        <Flex fontSize={30} mb={10}><strong>Formulário para compra de Pacote de adesivos</strong></Flex>
         <strong>Quais adesivos:</strong>
         <Checkbox mt={1} mb={1} color="blue.50">
           React
@@ -39,7 +40,7 @@ export default function Home() {
           <strong>Quantos adesivos de cada?</strong>{" "}
         </Flex>
         <Flex>
-          <Button onClick={subtrair} color="blue.50" bg="purple.500">
+          <Button onClick={subtrair} color="blue.50" colorScheme="purple">
             -
           </Button>
           <Flex
@@ -53,7 +54,7 @@ export default function Home() {
           >
             {counter}
           </Flex>
-          <Button color="blue.50" bg="purple.500" onClick={aumentar}>
+          <Button color="blue.50" colorScheme="purple" onClick={aumentar}>
             {" "}
             +
           </Button>
@@ -72,9 +73,11 @@ export default function Home() {
             />
           </Flex>
         </Flex>
-        <Flex mt={10} ml={435}>
-          <Button colorScheme="purple">ENVIAR</Button>
-        </Flex>
+        <Link href='formularioadesivos.vercel.app/obrigado'>
+          <Flex mt={8} ml={435}>
+            <Button colorScheme="purple">ENVIAR</Button>
+          </Flex>
+        </Link>
       </Flex>
     </Flex>
   );
