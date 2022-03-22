@@ -8,6 +8,7 @@ Next JS  <br>
 React JS  <br>
 Chakra UI  <br>
 SSR  <br>
+JavaScript
 
 ## Getting Started
 
