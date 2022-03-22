@@ -73,7 +73,7 @@ export default function Home() {
             />
           </Flex>
         </Flex>
-        <Link href='formularioadesivos.vercel.app/obrigado'>
+        <Link href='/obrigado'>
           <Flex mt={8} ml={435}>
             <Button colorScheme="purple">ENVIAR</Button>
           </Flex>

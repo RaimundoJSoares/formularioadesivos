@@ -14,7 +14,7 @@ function Obrigado() {
 
       <Flex mt={30} fontSize={20}>
         Para retornar a página inicial, <br></br> 
-        <Link color="blue.500" href='formularioadesivos.vercel.app'> clique aqui</Link>
+        <Link color="blue.500" href='/'> clique aqui</Link>
       </Flex>
     </Flex>
   )
